@@ -2,7 +2,7 @@
 
 This repository provides a simple solution to task 2 as part of the evaluation for the QOSF mentorship program. To re-iterate, task 2 requires a mapping of 4 random 4 quibit states onto specific target states. We utilize a cost function, which when minimized maximizes the fidelity between the input states and the required target states. 
 
-Note that for noisier or real world data, more elegant solutions may instead maximize the cumulative fidelities between the set of input states and the set of output states (i.e. equivalently minimzing the associated cost), or for instance if such states were to be identified via features from a noiser dataset, say for a classification task one could use a softmax function with the Forest-SDK. 
+Note that for noisier or real world data, more elegant solutions may instead maximize the cumulative fidelities between the set of input states and the set of output states (i.e. equivalently minimzing the associated cost), or for instance if such states were to be identified via features from a noiser dataset then for a classification task one could use a softmax function with the Forest-SDK. 
 
 Here instead we use argmax to identify which of the set of parameters will correctly map our random input states to the target staes, noting that for each random state, the best fidelity is likely to be produced only by one of the 4 sets of parameters.
 
@@ -16,6 +16,6 @@ And finally we can install the requirements by running the shell script (nothing
 
 ```sh install_requirements.sh```
 
-Thanks Much. 
+This has been an educational experience going through the relevant documentation so thanks much for settign this up!
 
 Nikhil
