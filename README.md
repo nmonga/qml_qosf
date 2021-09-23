@@ -1,6 +1,6 @@
 # A Simple Solution for Task 2 of the QOSF Mentorship Program Evaluation
 
-This repository provides a simple solution to task 2 as part of the evaluation for the QOSF mentorship program. To re-iterate, task 2 requires a mapping of 4 random 4 quibit states onto specific target states. We utilize a cost function, which when minimized maximizes the fidelity between the input states and the required target states. 
+This repository provides a simple solution to task 2 as part of the evaluation for the QOSF mentorship program. To re-iterate, task 2 requires a mapping of 4 random 4 quibit states onto specific target states. I utilize a cost function, which when minimized maximizes the fidelity between the input states and the required target states. 
 
 Note that for noisier or real world data, more elegant solutions may instead maximize the cumulative fidelities between the set of input states and the set of output states (i.e. equivalently minimzing the associated cost), or for instance if such states were to be identified via features from a noiser dataset then for a classification task one could use a softmax function with the Forest-SDK. 
 
